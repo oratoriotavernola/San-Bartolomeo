@@ -4,14 +4,13 @@ build() {
     printer "🔨 Building the app"
     mkdir -p dist
     rm -rf dist/*
-    cp -r app/menu.html dist
+    cp -r app/* dist
     handler
 }
 
 deploy() {
     printer "📦 Deploying the app"
     build
-    rm -rf dist/*
     cp -r app dist
     git add .
     git commit -m "Deployed the app"
