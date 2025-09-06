@@ -13,6 +13,8 @@ This project is a utility repository. It is designed to host online resources fo
 >
 > - None
 
+## User Interface (UI)
+
 | <a href="https://robertovicario-chatbot.hf.space"><img src="docs/cover.png" alt="UI" width="512"></a> |
 | :-: |
 | **Menu - San Bartolomeo** |
